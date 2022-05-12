@@ -27,14 +27,11 @@ body{
     width: 90%;
 }
 
-img{
+.img-qrcode {
     border-radius: 10px;
     margin: 5%;
-    width: 100%;
-}
-
-.img-qrcode {
     width: 90%;
+    max-width: 360px;
 }
 
 .titulo{
@@ -49,3 +46,23 @@ img{
     padding: 20px 35px;
     color: rgb(149, 152, 161);
 }
+
+@media (max-widdth: 1440px) {
+    body {
+        position: absolute;
+      }    
+
+    }
+    .background{
+        margin: auto;
+        max-width: 360px;
+        width: 100%;
+        margin: 250px;
+
+    }
+    img{
+        margin: auto;
+        max-width: 360px;
+        width: 100%;
+        height: auto;
+    }
