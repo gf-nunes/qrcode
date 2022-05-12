@@ -6,35 +6,46 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px; text-align: center;
+    color: hsl(228, 44%, 22%);
 }
 
 .flex-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
 .background{
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 20px;
     margin: 20% 5%;
+    height: 100%;
+    width: 90%;
 }
 
 img{
-    border-radius: 10px
+    border-radius: 10px;
+    margin: 5%;
+    width: 100%;
 }
 
 .img-qrcode {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
+    width: 90%;
 }
 
-.texto{
-    text-align: center;
+.titulo{
+    font-weight:700 ;
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+.texto {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 20px 35px;
+    color: rgb(149, 152, 161);
 }
