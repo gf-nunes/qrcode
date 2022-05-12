@@ -47,6 +47,7 @@ body{
     color: rgb(149, 152, 161);
 }
 
+/* 
 @media (max-widdth: 1440px) {
     body {
         position: absolute;
@@ -66,3 +67,4 @@ body{
         width: 100%;
         height: auto;
     }
+ */
